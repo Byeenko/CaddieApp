@@ -87,6 +87,7 @@ for (const c of library.categories) {
 }
 
 // --- lessons ---
+const FIGURE_TYPES = new Set(['sequence', 'compare', 'ball-flight', 'slope', 'chip-ratio', 'clock', 'green-read', 'bunker']);
 const articles = [];
 for (const file of walk(join(ROOT, 'content/articles'), (p) => p.endsWith('.md'))) {
   const text = readFileSync(file, 'utf8');
@@ -97,6 +98,13 @@ for (const file of walk(join(ROOT, 'content/articles'), (p) => p.endsWith('.md')
   if (!topicIds.has(data.topic)) warn(`${rel(file)}: topic "${data.topic}" isn't in library.json`);
   const words = plainText(body).split(' ').length;
   const links = [...body.matchAll(/\[\[([^\]|#]+)/g)].map((m) => m[1].trim().split('/').pop());
+  for (const m of body.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
+    if (/^https?:/.test(m[1])) continue;
+    try { statSync(join(file, '..', m[1])); } catch { warn(`${rel(file)}: image "${m[1]}" not found`); }
+  }
+  for (const m of body.matchAll(/```figure\s*\n[\s\S]*?type:\s*([\w-]+)/g)) {
+    if (!FIGURE_TYPES.has(m[1])) warn(`${rel(file)}: unknown figure type "${m[1]}"`);
+  }
   articles.push({
     id,
     title: data.title || id,
@@ -105,6 +113,7 @@ for (const file of walk(join(ROOT, 'content/articles'), (p) => p.endsWith('.md')
     level: data.level || 'beginner',
     tags: data.tags || [],
     related: data.related || [],
+    prereq: data.prereq || [],
     order: data.order ? Number(data.order) : undefined,
     readMins: Math.max(1, Math.round(words / 200)),
     path: rel(file),
@@ -116,6 +125,7 @@ for (const file of walk(join(ROOT, 'content/articles'), (p) => p.endsWith('.md')
 const articleIds = new Set(articles.map((a) => a.id));
 for (const a of articles) {
   for (const r of a.related) if (!articleIds.has(r)) warn(`${a.path}: related lesson "${r}" not found`);
+  for (const r of a.prereq) if (!articleIds.has(r)) warn(`${a.path}: prerequisite "${r}" not found`);
   for (const l of a._links) if (!articleIds.has(l)) warn(`${a.path}: [[${l}]] links to a lesson that doesn't exist yet`);
   delete a._links;
 }

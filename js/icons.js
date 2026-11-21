@@ -25,6 +25,7 @@ const P = {
   mental: '<path d="M12 3.5a6 6 0 0 0-3.6 10.8V17h7.2v-2.7A6 6 0 0 0 12 3.5z"/><path d="M9.5 20.5h5"/>',
   lies: '<path d="M2.5 19.5 21.5 9v10.5z"/><circle cx="11" cy="11.6" r="1.9"/>',
   oncourse: '<circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8z"/>',
+  fitness: '<path d="M3.5 12h17"/><path d="M6 8.5v7M18 8.5v7"/><path d="M3.5 10v4M20.5 10v4"/>',
   advanced: '<path d="M3.5 20.5h17"/><path d="M7 17v-5M12 17V6.5M17 17v-8"/>',
 };
 

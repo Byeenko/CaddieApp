@@ -1,6 +1,7 @@
 // App-wide settings. Change these here rather than hunting through the code.
 export const CONFIG = {
   appName: 'Caddie',
+  version: '0.3.0',      // bump on every release; shown at the bottom of Home
   units: 'yards',        // 'yards' | 'metres' — used by the GPS caddie (Phase 4)
   handedness: 'right',   // lessons are written for right-handed golfers
 };

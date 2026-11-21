@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "featured": ["the-grip", "ball-position", "pre-shot-routine", "uphill-lie"],
+  "featured": [
+    "setup-and-posture",
+    "the-grip",
+    "fixing-a-slice",
+    "chipping-basics",
+    "ball-flight-laws",
+    "pre-shot-routine"
+  ],
   "categories": [
     {
       "id": "fundamentals",
@@ -9,11 +16,31 @@
       "hue": 150,
       "summary": "How the game works, scoring, handicaps and the rules you'll actually use.",
       "topics": [
-        { "id": "game-basics", "title": "How Golf Works", "summary": "Holes, par, the course and how a round plays out." },
-        { "id": "scoring-handicaps", "title": "Scoring & Handicaps", "summary": "Stroke play, Stableford, match play and how handicaps work." },
-        { "id": "essential-rules", "title": "Essential Rules", "summary": "The rules that come up every round." },
-        { "id": "penalties-relief", "title": "Penalties & Relief", "summary": "Out of bounds, penalty areas, unplayable lies and free drops." },
-        { "id": "etiquette", "title": "Etiquette & Pace of Play", "summary": "Course care, playing partners and keeping things moving." }
+        {
+          "id": "game-basics",
+          "title": "How Golf Works",
+          "summary": "Holes, par, the course and how a round plays out."
+        },
+        {
+          "id": "scoring-handicaps",
+          "title": "Scoring & Handicaps",
+          "summary": "Stroke play, Stableford, match play and how handicaps work."
+        },
+        {
+          "id": "essential-rules",
+          "title": "Essential Rules",
+          "summary": "The rules that come up every round."
+        },
+        {
+          "id": "penalties-relief",
+          "title": "Penalties & Relief",
+          "summary": "Out of bounds, penalty areas, unplayable lies and free drops."
+        },
+        {
+          "id": "etiquette",
+          "title": "Etiquette & Pace of Play",
+          "summary": "Course care, playing partners and keeping things moving."
+        }
       ]
     },
     {
@@ -23,17 +50,66 @@
       "hue": 160,
       "summary": "The building blocks of a repeatable swing, from grip to finish.",
       "topics": [
-        { "id": "grip", "title": "The Grip", "summary": "How you hold the club, and why it controls the clubface." },
-        { "id": "setup-posture", "title": "Setup & Posture", "summary": "Athletic posture, stance width and weight distribution." },
-        { "id": "alignment", "title": "Alignment", "summary": "Aiming the clubface and body where you intend." },
-        { "id": "ball-position", "title": "Ball Position", "summary": "Where the ball sits in your stance for each club." },
-        { "id": "takeaway", "title": "Takeaway", "summary": "The first few feet of the swing." },
-        { "id": "backswing", "title": "Backswing & Top", "summary": "Turn, width and wrist set." },
-        { "id": "downswing", "title": "Transition & Downswing", "summary": "Sequencing from the top down to the ball." },
-        { "id": "impact", "title": "Impact", "summary": "What good contact looks like and how to get there." },
-        { "id": "follow-through", "title": "Follow-Through & Finish", "summary": "Release, rotation and a balanced finish." },
-        { "id": "tempo", "title": "Tempo & Rhythm", "summary": "Timing that holds up under pressure." },
-        { "id": "swing-faults", "title": "Common Faults & Fixes", "summary": "Slices, hooks, fats, thins and what causes them." }
+        {
+          "id": "grip",
+          "title": "The Grip",
+          "summary": "How you hold the club, and why it controls the clubface."
+        },
+        {
+          "id": "setup-posture",
+          "title": "Setup & Posture",
+          "summary": "Athletic posture, stance width and weight distribution."
+        },
+        {
+          "id": "alignment",
+          "title": "Alignment",
+          "summary": "Aiming the clubface and body where you intend."
+        },
+        {
+          "id": "ball-position",
+          "title": "Ball Position",
+          "summary": "Where the ball sits in your stance for each club."
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "summary": "The first few feet of the swing."
+        },
+        {
+          "id": "backswing",
+          "title": "Backswing & Top",
+          "summary": "Turn, width and wrist set."
+        },
+        {
+          "id": "downswing",
+          "title": "Transition & Downswing",
+          "summary": "Sequencing from the top down to the ball."
+        },
+        {
+          "id": "weight-transfer",
+          "title": "Weight Transfer",
+          "summary": "How pressure moves between your feet during the swing."
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "summary": "What good contact looks like and how to get there."
+        },
+        {
+          "id": "follow-through",
+          "title": "Follow-Through & Finish",
+          "summary": "Release, rotation and a balanced finish."
+        },
+        {
+          "id": "tempo",
+          "title": "Tempo & Rhythm",
+          "summary": "Timing that holds up under pressure."
+        },
+        {
+          "id": "swing-faults",
+          "title": "Common Faults & Fixes",
+          "summary": "Slices, hooks, fats, thins and what causes them."
+        }
       ]
     },
     {
@@ -43,10 +119,26 @@
       "hue": 195,
       "summary": "Hitting the driver longer and finding more fairways.",
       "topics": [
-        { "id": "driver-setup", "title": "Driver Setup", "summary": "Tee height, ball position and spine tilt." },
-        { "id": "driver-distance", "title": "Swinging for Distance", "summary": "Speed, launch and centred strikes." },
-        { "id": "driver-accuracy", "title": "Finding Fairways", "summary": "Control off the tee when it matters." },
-        { "id": "driver-faults", "title": "Slices, Hooks & Pop-Ups", "summary": "Fixing the most common driver misses." }
+        {
+          "id": "driver-setup",
+          "title": "Driver Setup",
+          "summary": "Tee height, ball position and spine tilt."
+        },
+        {
+          "id": "driver-distance",
+          "title": "Swinging for Distance",
+          "summary": "Speed, launch and centred strikes."
+        },
+        {
+          "id": "driver-accuracy",
+          "title": "Finding Fairways",
+          "summary": "Control off the tee when it matters."
+        },
+        {
+          "id": "driver-faults",
+          "title": "Slices, Hooks & Pop-Ups",
+          "summary": "Fixing the most common driver misses."
+        }
       ]
     },
     {
@@ -56,11 +148,31 @@
       "hue": 205,
       "summary": "Crisp contact, distance control and hitting more greens.",
       "topics": [
-        { "id": "iron-contact", "title": "Ball-First Contact", "summary": "Hitting down on the ball and compressing it." },
-        { "id": "long-irons-hybrids", "title": "Long Irons & Hybrids", "summary": "Getting the harder clubs airborne." },
-        { "id": "fairway-woods", "title": "Fairway Woods", "summary": "Sweeping it off the deck and from the tee." },
-        { "id": "approach-distance", "title": "Distance Control", "summary": "Carrying the ball the number you want." },
-        { "id": "approach-targets", "title": "Choosing Targets", "summary": "Pins, centre of the green and safe sides." }
+        {
+          "id": "iron-contact",
+          "title": "Ball-First Contact",
+          "summary": "Hitting down on the ball and compressing it."
+        },
+        {
+          "id": "long-irons-hybrids",
+          "title": "Long Irons & Hybrids",
+          "summary": "Getting the harder clubs airborne."
+        },
+        {
+          "id": "fairway-woods",
+          "title": "Fairway Woods",
+          "summary": "Sweeping it off the deck and from the tee."
+        },
+        {
+          "id": "approach-distance",
+          "title": "Distance Control",
+          "summary": "Carrying the ball the number you want."
+        },
+        {
+          "id": "approach-targets",
+          "title": "Choosing Targets",
+          "summary": "Pins, centre of the green and safe sides."
+        }
       ]
     },
     {
@@ -70,11 +182,31 @@
       "hue": 140,
       "summary": "Chipping, pitching and bunker play: where scores are saved.",
       "topics": [
-        { "id": "chipping", "title": "Chipping", "summary": "Low running shots from just off the green." },
-        { "id": "pitching", "title": "Pitching", "summary": "Higher shots that carry further and stop." },
-        { "id": "bunker-play", "title": "Greenside Bunkers", "summary": "Using the bounce to splash it out." },
-        { "id": "specialty-shots", "title": "Lobs & Specialty Shots", "summary": "Flops, bump-and-runs and creative recoveries." },
-        { "id": "shot-selection-around-green", "title": "Choosing the Right Shot", "summary": "Picking the simplest shot that gets it close." }
+        {
+          "id": "chipping",
+          "title": "Chipping",
+          "summary": "Low running shots from just off the green."
+        },
+        {
+          "id": "pitching",
+          "title": "Pitching",
+          "summary": "Higher shots that carry further and stop."
+        },
+        {
+          "id": "bunker-play",
+          "title": "Greenside Bunkers",
+          "summary": "Using the bounce to splash it out."
+        },
+        {
+          "id": "specialty-shots",
+          "title": "Lobs & Specialty Shots",
+          "summary": "Flops, bump-and-runs and creative recoveries."
+        },
+        {
+          "id": "shot-selection-around-green",
+          "title": "Choosing the Right Shot",
+          "summary": "Picking the simplest shot that gets it close."
+        }
       ]
     },
     {
@@ -84,11 +216,31 @@
       "hue": 130,
       "summary": "Setup, stroke, reading greens and controlling pace.",
       "topics": [
-        { "id": "putting-setup", "title": "Putting Setup", "summary": "Eyes, posture and grip options." },
-        { "id": "putting-stroke", "title": "The Stroke", "summary": "Path, face and a smooth pendulum." },
-        { "id": "green-reading", "title": "Reading Greens", "summary": "Slope, grain and picking a line." },
-        { "id": "speed-control", "title": "Speed & Lag Putting", "summary": "Getting long putts close." },
-        { "id": "short-putts", "title": "Holing Short Putts", "summary": "Confidence from inside six feet." }
+        {
+          "id": "putting-setup",
+          "title": "Putting Setup",
+          "summary": "Eyes, posture and grip options."
+        },
+        {
+          "id": "putting-stroke",
+          "title": "The Stroke",
+          "summary": "Path, face and a smooth pendulum."
+        },
+        {
+          "id": "green-reading",
+          "title": "Reading Greens",
+          "summary": "Slope, grain and picking a line."
+        },
+        {
+          "id": "speed-control",
+          "title": "Speed & Lag Putting",
+          "summary": "Getting long putts close."
+        },
+        {
+          "id": "short-putts",
+          "title": "Holing Short Putts",
+          "summary": "Confidence from inside six feet."
+        }
       ]
     },
     {
@@ -98,10 +250,26 @@
       "hue": 40,
       "summary": "Thinking your way around the course to shoot lower scores.",
       "topics": [
-        { "id": "game-plan", "title": "Building a Game Plan", "summary": "Playing to your strengths, hole by hole." },
-        { "id": "risk-reward", "title": "Risk & Reward", "summary": "When to attack and when to play safe." },
-        { "id": "where-to-miss", "title": "Where to Miss", "summary": "Using the big numbers to avoid big numbers." },
-        { "id": "par-strategy", "title": "Par 3s, 4s & 5s", "summary": "Different holes, different approaches." }
+        {
+          "id": "game-plan",
+          "title": "Building a Game Plan",
+          "summary": "Playing to your strengths, hole by hole."
+        },
+        {
+          "id": "risk-reward",
+          "title": "Risk & Reward",
+          "summary": "When to attack and when to play safe."
+        },
+        {
+          "id": "where-to-miss",
+          "title": "Where to Miss",
+          "summary": "Using the big numbers to avoid big numbers."
+        },
+        {
+          "id": "par-strategy",
+          "title": "Par 3s, 4s & 5s",
+          "summary": "Different holes, different approaches."
+        }
       ]
     },
     {
@@ -111,9 +279,21 @@
       "hue": 30,
       "summary": "Knowing your numbers and picking the right club every time.",
       "topics": [
-        { "id": "knowing-distances", "title": "Knowing Your Distances", "summary": "Carry, total and your real averages." },
-        { "id": "conditions-adjustments", "title": "Wind, Elevation & Temperature", "summary": "Adjusting the number for conditions." },
-        { "id": "between-clubs", "title": "Between Clubs", "summary": "Choosing when the yardage sits in the gap." }
+        {
+          "id": "knowing-distances",
+          "title": "Knowing Your Distances",
+          "summary": "Carry, total and your real averages."
+        },
+        {
+          "id": "conditions-adjustments",
+          "title": "Wind, Elevation & Temperature",
+          "summary": "Adjusting the number for conditions."
+        },
+        {
+          "id": "between-clubs",
+          "title": "Between Clubs",
+          "summary": "Choosing when the yardage sits in the gap."
+        }
       ]
     },
     {
@@ -123,10 +303,26 @@
       "hue": 215,
       "summary": "Why the ball curves, and how to make it do what you want.",
       "topics": [
-        { "id": "ball-flight-laws", "title": "Ball-Flight Laws", "summary": "Face, path and what they do to the ball." },
-        { "id": "draw-fade", "title": "Draws & Fades", "summary": "Curving the ball on purpose." },
-        { "id": "trajectory", "title": "Trajectory Control", "summary": "Hitting it high, low and in between." },
-        { "id": "spin", "title": "Spin", "summary": "Backspin, sidespin and what creates them." }
+        {
+          "id": "ball-flight-laws",
+          "title": "Ball-Flight Laws",
+          "summary": "Face, path and what they do to the ball."
+        },
+        {
+          "id": "draw-fade",
+          "title": "Draws & Fades",
+          "summary": "Curving the ball on purpose."
+        },
+        {
+          "id": "trajectory",
+          "title": "Trajectory Control",
+          "summary": "Hitting it high, low and in between."
+        },
+        {
+          "id": "spin",
+          "title": "Spin",
+          "summary": "Backspin, sidespin and what creates them."
+        }
       ]
     },
     {
@@ -136,11 +332,31 @@
       "hue": 25,
       "summary": "Clubs, balls and gear: what actually matters for your game.",
       "topics": [
-        { "id": "the-bag", "title": "What's in the Bag", "summary": "The 14 clubs and what each one is for." },
-        { "id": "shafts-fitting", "title": "Shafts & Fitting", "summary": "Flex, weight, lie angle and getting fitted." },
-        { "id": "golf-balls", "title": "Golf Balls", "summary": "Construction, compression and choosing one." },
-        { "id": "wedges-lofts", "title": "Wedges, Lofts & Bounce", "summary": "Gapping and grinds explained." },
-        { "id": "gear", "title": "Shoes, Gloves & Gadgets", "summary": "Rangefinders, GPS and other gear." }
+        {
+          "id": "the-bag",
+          "title": "What's in the Bag",
+          "summary": "The 14 clubs and what each one is for."
+        },
+        {
+          "id": "shafts-fitting",
+          "title": "Shafts & Fitting",
+          "summary": "Flex, weight, lie angle and getting fitted."
+        },
+        {
+          "id": "golf-balls",
+          "title": "Golf Balls",
+          "summary": "Construction, compression and choosing one."
+        },
+        {
+          "id": "wedges-lofts",
+          "title": "Wedges, Lofts & Bounce",
+          "summary": "Gapping and grinds explained."
+        },
+        {
+          "id": "gear",
+          "title": "Shoes, Gloves & Gadgets",
+          "summary": "Rangefinders, GPS and other gear."
+        }
       ]
     },
     {
@@ -150,11 +366,31 @@
       "hue": 175,
       "summary": "Practising with purpose, so it actually carries over to the course.",
       "topics": [
-        { "id": "practice-plans", "title": "Practice Plans", "summary": "Structuring a session for real improvement." },
-        { "id": "range-practice", "title": "Range Practice", "summary": "Block, random and game-like practice." },
-        { "id": "short-game-drills", "title": "Short Game Drills", "summary": "Drills for chipping, pitching and bunkers." },
-        { "id": "putting-drills", "title": "Putting Drills", "summary": "Drills for start line, speed and pressure." },
-        { "id": "home-sim-practice", "title": "Home & Simulator Practice", "summary": "Getting better without a range." }
+        {
+          "id": "practice-plans",
+          "title": "Practice Plans",
+          "summary": "Structuring a session for real improvement."
+        },
+        {
+          "id": "range-practice",
+          "title": "Range Practice",
+          "summary": "Block, random and game-like practice."
+        },
+        {
+          "id": "short-game-drills",
+          "title": "Short Game Drills",
+          "summary": "Drills for chipping, pitching and bunkers."
+        },
+        {
+          "id": "putting-drills",
+          "title": "Putting Drills",
+          "summary": "Drills for start line, speed and pressure."
+        },
+        {
+          "id": "home-sim-practice",
+          "title": "Home & Simulator Practice",
+          "summary": "Getting better without a range."
+        }
       ]
     },
     {
@@ -164,11 +400,31 @@
       "hue": 255,
       "summary": "Focus, confidence, routines and handling pressure.",
       "topics": [
-        { "id": "pre-shot-routine", "title": "Pre-Shot Routine", "summary": "A repeatable routine for every shot." },
-        { "id": "focus", "title": "Focus & Concentration", "summary": "Switching on and off over four hours." },
-        { "id": "pressure", "title": "Nerves & Pressure", "summary": "First-tee nerves and closing out a round." },
-        { "id": "bouncing-back", "title": "Bouncing Back", "summary": "Moving on from bad shots and bad holes." },
-        { "id": "mindset", "title": "Expectations & Mindset", "summary": "Realistic goals and enjoying the game." }
+        {
+          "id": "pre-shot-routine",
+          "title": "Pre-Shot Routine",
+          "summary": "A repeatable routine for every shot."
+        },
+        {
+          "id": "focus",
+          "title": "Focus & Concentration",
+          "summary": "Switching on and off over four hours."
+        },
+        {
+          "id": "pressure",
+          "title": "Nerves & Pressure",
+          "summary": "First-tee nerves and closing out a round."
+        },
+        {
+          "id": "bouncing-back",
+          "title": "Bouncing Back",
+          "summary": "Moving on from bad shots and bad holes."
+        },
+        {
+          "id": "mindset",
+          "title": "Expectations & Mindset",
+          "summary": "Realistic goals and enjoying the game."
+        }
       ]
     },
     {
@@ -183,17 +439,53 @@
           "title": "Uneven Lies",
           "summary": "How slopes change the shot, and how to adjust.",
           "subtopics": [
-            { "id": "uphill", "title": "Uphill", "summary": "Lead foot higher than trail foot." },
-            { "id": "downhill", "title": "Downhill", "summary": "Lead foot lower than trail foot." },
-            { "id": "ball-above-feet", "title": "Ball Above Feet", "summary": "Standing below the ball." },
-            { "id": "ball-below-feet", "title": "Ball Below Feet", "summary": "Standing above the ball." }
+            {
+              "id": "uphill",
+              "title": "Uphill",
+              "summary": "Lead foot higher than trail foot."
+            },
+            {
+              "id": "downhill",
+              "title": "Downhill",
+              "summary": "Lead foot lower than trail foot."
+            },
+            {
+              "id": "ball-above-feet",
+              "title": "Ball Above Feet",
+              "summary": "Standing below the ball."
+            },
+            {
+              "id": "ball-below-feet",
+              "title": "Ball Below Feet",
+              "summary": "Standing above the ball."
+            }
           ]
         },
-        { "id": "rough", "title": "Rough", "summary": "Light, heavy and flyer lies." },
-        { "id": "fairway-bunkers", "title": "Fairway Bunkers", "summary": "Clean contact from sand at distance." },
-        { "id": "bad-lies", "title": "Divots, Hardpan & Bare Lies", "summary": "Getting the ball out of tricky spots." },
-        { "id": "wind", "title": "Playing in Wind", "summary": "Into, downwind and crosswinds." },
-        { "id": "wet-firm", "title": "Wet & Firm Conditions", "summary": "Adjusting for how the course is playing." }
+        {
+          "id": "rough",
+          "title": "Rough",
+          "summary": "Light, heavy and flyer lies."
+        },
+        {
+          "id": "fairway-bunkers",
+          "title": "Fairway Bunkers",
+          "summary": "Clean contact from sand at distance."
+        },
+        {
+          "id": "bad-lies",
+          "title": "Divots, Hardpan & Bare Lies",
+          "summary": "Getting the ball out of tricky spots."
+        },
+        {
+          "id": "wind",
+          "title": "Playing in Wind",
+          "summary": "Into, downwind and crosswinds."
+        },
+        {
+          "id": "wet-firm",
+          "title": "Wet & Firm Conditions",
+          "summary": "Adjusting for how the course is playing."
+        }
       ]
     },
     {
@@ -203,10 +495,26 @@
       "hue": 185,
       "summary": "Making good decisions in the moment, from warm-up to the 18th.",
       "topics": [
-        { "id": "pre-round", "title": "Warm-Up & Pre-Round", "summary": "Getting ready in the time you have." },
-        { "id": "shot-decisions", "title": "Making a Shot Decision", "summary": "Gathering information and committing." },
-        { "id": "recovery-shots", "title": "Recovery Shots", "summary": "Getting out of trouble without making it worse." },
-        { "id": "post-round", "title": "Reviewing Your Round", "summary": "Learning from every round you play." }
+        {
+          "id": "pre-round",
+          "title": "Warm-Up & Pre-Round",
+          "summary": "Getting ready in the time you have."
+        },
+        {
+          "id": "shot-decisions",
+          "title": "Making a Shot Decision",
+          "summary": "Gathering information and committing."
+        },
+        {
+          "id": "recovery-shots",
+          "title": "Recovery Shots",
+          "summary": "Getting out of trouble without making it worse."
+        },
+        {
+          "id": "post-round",
+          "title": "Reviewing Your Round",
+          "summary": "Learning from every round you play."
+        }
       ]
     },
     {
@@ -216,10 +524,50 @@
       "hue": 0,
       "summary": "Biomechanics, launch data and how the best think about the game.",
       "topics": [
-        { "id": "biomechanics", "title": "Body & Sequencing", "summary": "Kinematic sequence and ground forces." },
-        { "id": "launch-data", "title": "Launch Monitor Numbers", "summary": "Club speed, smash factor, spin and launch." },
-        { "id": "strokes-gained", "title": "Strokes Gained", "summary": "Measuring which part of your game costs shots." },
-        { "id": "dispersion", "title": "Shot Dispersion", "summary": "Aiming with your real shot pattern." }
+        {
+          "id": "biomechanics",
+          "title": "Body & Sequencing",
+          "summary": "Kinematic sequence and ground forces."
+        },
+        {
+          "id": "launch-data",
+          "title": "Launch Monitor Numbers",
+          "summary": "Club speed, smash factor, spin and launch."
+        },
+        {
+          "id": "strokes-gained",
+          "title": "Strokes Gained",
+          "summary": "Measuring which part of your game costs shots."
+        },
+        {
+          "id": "dispersion",
+          "title": "Shot Dispersion",
+          "summary": "Aiming with your real shot pattern."
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "title": "Golf Fitness",
+      "icon": "fitness",
+      "hue": 330,
+      "summary": "Mobility, strength and looking after your body so you can play well for years.",
+      "topics": [
+        {
+          "id": "mobility",
+          "title": "Mobility & Flexibility",
+          "summary": "The ranges of motion the swing needs."
+        },
+        {
+          "id": "strength-speed",
+          "title": "Strength & Speed",
+          "summary": "Training to hit it further."
+        },
+        {
+          "id": "injury-prevention",
+          "title": "Injury Prevention",
+          "summary": "Backs, elbows and wrists: avoiding the common golf injuries."
+        }
       ]
     }
   ]

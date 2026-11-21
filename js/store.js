@@ -26,6 +26,21 @@ export const store = {
   get: read,
   set: write,
 
+  // Bookmarks: [{ id, at }] newest first
+  bookmarks() {
+    return read('bookmarks', []);
+  },
+  isSaved(id) {
+    return read('bookmarks', []).some((b) => b.id === id);
+  },
+  /** Saves or un-saves a lesson. Returns true if it is now saved. */
+  toggleSaved(id) {
+    const list = read('bookmarks', []);
+    const saved = list.some((b) => b.id === id);
+    write('bookmarks', saved ? list.filter((b) => b.id !== id) : [{ id, at: Date.now() }, ...list]);
+    return !saved;
+  },
+
   recent() {
     return read('recent', []);
   },

@@ -11,6 +11,23 @@ export const LEVELS = {
   advanced: 'Advanced',
 };
 
+/** A small message that appears briefly above the tab bar. */
+let toastTimer;
+export function toast(text) {
+  let el = document.getElementById('toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'toast';
+    el.className = 'toast';
+    el.setAttribute('role', 'status');
+    document.body.append(el);
+  }
+  el.textContent = text;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 1600);
+}
+
 export function greeting(date = new Date()) {
   const h = date.getHours();
   if (h < 12) return 'Good morning';

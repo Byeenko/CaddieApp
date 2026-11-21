@@ -5,7 +5,7 @@ topic: grip
 level: beginner
 order: 1
 tags: [grip, clubface, slice, hook, fundamentals]
-related: [ball-position, pre-shot-routine]
+related: [ball-position, fixing-a-slice, setup-and-posture]
 ---
 
 > [!key] Key points
@@ -61,6 +61,12 @@ None of these is "correct". Pick the one that feels most secure and lets your ha
 | Weak | Hands turned to the left; one knuckle or fewer visible | Face stays open: fades, or slices if overdone |
 
 If you fight a slice, strengthening your grip slightly is often the quickest improvement you can make. Turn both hands a little to the right until you see a third knuckle.
+
+```figure
+type: ball-flight
+preset: slice
+caption: The grip mainly changes the clubface. Slide Face from open to closed to see how a weak grip (open face) or strong grip (closed face) changes the shot.
+```
 
 ## Grip pressure
 

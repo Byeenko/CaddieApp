@@ -2,7 +2,7 @@ import { icon } from '../icons.js';
 import { esc, greeting, longDate, plural } from '../util.js';
 import { section, list, lessonRow, lessonCard, categoryIcon, tint } from './components.js';
 
-export default async function home({ content, store }) {
+export default async function home({ content, store, config }) {
   const recent = store
     .recent()
     .map((id) => content.articles.get(id))
@@ -41,7 +41,7 @@ export default async function home({ content, store }) {
   );
 
   const total = content.articles.size;
-  const footer = `<p class="footnote">${plural(total, 'lesson')} across ${content.categories.length} categories</p>`;
+  const footer = `<p class="footnote">${plural(total, 'lesson')} across ${content.categories.length} categories<br>${esc(config.appName)} v${esc(config.version)}</p>`;
 
   return {
     title: 'Caddie',

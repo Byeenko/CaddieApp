@@ -3,7 +3,7 @@
 // tools/build-content.mjs updates VERSION whenever any file changes, which tells
 // the phone to fetch the new version next time the app opens.
 
-const VERSION = '74a30fa987e3';
+const VERSION = '8d9727573424';
 const CACHE = `caddie-${VERSION}`;
 
 self.addEventListener('install', (event) => {

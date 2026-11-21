@@ -5,7 +5,8 @@ topic: uphill
 level: intermediate
 order: 1
 tags: [uneven lies, slope, uphill, club selection, course]
-related: [ball-position]
+related: [downhill-lie, ball-above-your-feet, ball-below-your-feet, ball-position]
+prereq: [setup-and-posture]
 ---
 
 > [!key] Key points
@@ -13,6 +14,11 @@ related: [ball-position]
 > - The ball tends to go **left**, so aim a little right.
 > - Tilt your shoulders to **match the slope** and play the ball slightly **forward**.
 > - Make a controlled swing and **swing up the hill** through impact.
+
+```figure
+type: slope
+lie: uphill
+```
 
 ## What the slope does
 

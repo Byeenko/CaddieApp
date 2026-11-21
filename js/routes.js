@@ -8,7 +8,9 @@ import library from './views/library.js';
 import category from './views/category.js';
 import topic from './views/topic.js';
 import lesson from './views/lesson.js';
-import { searchView, savedView, caddieView } from './views/placeholders.js';
+import searchView from './views/search.js';
+import savedView from './views/saved.js';
+import { caddieView } from './views/placeholders.js';
 
 export const ROUTES = [
   { pattern: /^\/$/, view: home, tab: 'home', title: () => 'Home' },

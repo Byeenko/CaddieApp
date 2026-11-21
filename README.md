@@ -22,6 +22,8 @@ When files in this folder change, open GitHub Desktop → **Commit to main** →
 
 Lessons are Markdown files in `content/articles/`. You can open the whole folder as an Obsidian vault and edit them there.
 
+**Quickest way to start a new lesson:** copy `templates/lesson.md`. In Obsidian you can switch on *Settings → Core plugins → Templates*, set the template folder to `templates`, and insert it with one click.
+
 Every lesson starts with a small header:
 
 ```yaml
@@ -43,7 +45,8 @@ Inside a lesson you can use:
 | `[[ball-position]]` or `[[ball-position\|custom text]]` | A link to another lesson |
 | `> [!key] Key points` | Green summary box |
 | `> [!tip]` · `> [!mistake]` · `> [!drill]` · `> [!tour]` · `> [!note]` | Tip, common mistake, drill, tour example, note |
-| `![Caption](../../diagrams/name.svg)` | A diagram that adapts to light/dark mode |
+| `![Caption](../../diagrams/name.svg)` | A diagram that adapts to light/dark mode (tap to enlarge) |
+| ` ```figure ` block with `type: …` | An animated or interactive visual. See `Project/09 Reference/Writing Lessons.md` |
 | Normal Markdown tables, lists, headings | As expected |
 
 Categories and topics live in `content/library.json`. Add a new category or topic there and it appears in the app straight away.
@@ -64,7 +67,10 @@ js/
   content.js            Loads and indexes the library
   render.js             Markdown → lesson HTML (links, callouts, diagrams)
   store.js              Data saved on the phone
-  widgets.js            Interactive demos (Phase 3)
+  search.js             Offline search and ranking
+  widgets.js            Loads lesson visuals on demand
+  viz/                  Stick figures, animations and interactive demos
+  lightbox.js           Tap-to-enlarge for diagrams
   views/                One file per screen
   vendor/marked.esm.js  Markdown parser (MIT licence), the only third-party code
 content/
@@ -72,7 +78,9 @@ content/
   manifest.json         Generated lesson index
   articles/             Lessons (Markdown)
   diagrams/             SVG diagrams
+templates/lesson.md     Starting point for new lessons
 tools/build-content.mjs Content builder; plain Node, no installs
+tools/make-diagrams.py  Draws the SVG diagrams (Python, no packages)
 ```
 
 ## Previewing on a computer

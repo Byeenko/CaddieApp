@@ -5,7 +5,7 @@ topic: pre-shot-routine
 level: beginner
 order: 1
 tags: [mental game, routine, focus, pressure, commitment]
-related: [the-grip]
+related: [focus-and-concentration, nerves-and-pressure, making-a-shot-decision]
 ---
 
 > [!key] Key points

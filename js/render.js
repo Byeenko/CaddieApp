@@ -19,6 +19,7 @@ const CALLOUTS = {
   drill: { label: 'Drill', icon: 'practice' },
   tour: { label: 'On tour', icon: 'fundamentals' },
   note: { label: 'Note', icon: 'info' },
+  warning: { label: 'Warning', icon: 'info' },
 };
 
 let content = null; // set per render so wiki-links can look up titles
@@ -134,11 +135,21 @@ export async function renderArticle(markdown, articlePath, contentApi) {
   });
   await Promise.all(jobs);
 
-  // Interactive demos (Phase 3): ```widget name``` becomes a mount point.
-  root.querySelectorAll('pre > code.language-widget').forEach((code) => {
+  // Visuals: ```figure``` blocks (key: value lines) become mount points for js/widgets.js.
+  root.querySelectorAll('pre > code.language-figure, pre > code.language-widget').forEach((code) => {
     const el = document.createElement('div');
     el.className = 'widget';
-    el.dataset.widget = code.textContent.trim();
+    const params = {};
+    if (code.classList.contains('language-widget')) {
+      params.type = code.textContent.trim();
+    } else {
+      for (const line of code.textContent.split('\n')) {
+        const m = /^\s*([\w-]+)\s*:\s*(.*?)\s*$/.exec(line);
+        if (m) params[m[1]] = m[2];
+      }
+    }
+    el.dataset.widget = params.type || '';
+    el.dataset.params = JSON.stringify(params);
     code.parentElement.replaceWith(el);
   });
 
