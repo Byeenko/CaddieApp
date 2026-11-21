@@ -8,7 +8,7 @@ updated: 2026-11-21
 What changed in each version, newest first. "Released" means pushed to GitHub Pages.
 
 ## v0.3.0: Complete library & visual learning
-*Built 21 Nov 2026 · Released: `PLACEHOLDER: date pushed`*
+*Built and released 21 Nov 2026*
 
 **New**
 - **83 lessons** (up from 18) covering every topic and subtopic, including the new Golf Fitness category and a Weight Transfer lesson

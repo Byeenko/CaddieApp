@@ -20,7 +20,7 @@ An iPhone golf knowledge library plus an on-course GPS caddie, for you and one m
 
 | | |
 | --- | --- |
-| **Version** | v0.3.0 built 21 Nov 2026. **Not pushed yet**: the live site is still the first commit. |
+| **Version** | v0.3.0, pushed to GitHub 21 Nov 2026 (live a minute or two after the push). |
 | **Phase** | 3 of 5 done. See [[Roadmap]]. |
 | **Live link** | https://byeenko.github.io/CaddieApp/ |
 | **Installed on** | Your iPhone: ☑ · Your mate's iPhone: ☐ |
@@ -30,8 +30,8 @@ An iPhone golf knowledge library plus an on-course GPS caddie, for you and one m
 ## Working on now
 
 - [x] Set up GitHub Pages and install on your iPhone. See [[Setup – Hosting & iPhone Install]].
-- [ ] **Push v0.3.0**: GitHub Desktop → Commit to main → Push origin. This also fixes lessons not loading (BUG-012). #now
-- [ ] First on-device test with the *Test Run* template. See [[Test Plan]]. #now
+- [x] Push v0.3.0 to GitHub (21 Nov 2026)
+- [ ] Reopen Caddie on your iPhone (twice), check it shows v0.3.0, and run the first on-device test with the *Test Run* template. See [[Test Plan]]. #now
 
 ## Blocked
 

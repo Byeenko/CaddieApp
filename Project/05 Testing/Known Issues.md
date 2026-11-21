@@ -14,7 +14,6 @@ Bugs and gaps, newest at the top of each list. Larger bugs can get their own not
 | ID | Issue | Sev. | Found | Notes |
 | --- | --- | --- | --- | --- |
 | RISK-04 | Animations not yet checked for smoothness on an older iPhone | 🟢 | 2026-11-21 | They pause off-screen and respect Reduce Motion |
-| BUG-012 | If lessons show "Could not load lesson" on the phone, the live site predates `.nojekyll`. Push the latest version | 🔴 | 2026-11-21 | Fixed in the files; needs a push #now |
 | RISK-01 | Status bar colour in standalone mode not yet checked on a real iPhone | 🟠 | 2026-11-21 | [[Test Plan]] #blocked |
 | RISK-02 | Search keyboard behaviour not yet checked on a real iPhone | 🟠 | 2026-11-21 | [[Test Plan]] #blocked |
 | RISK-03 | iOS may ask for location permission more often than a native app would | 🟠 | 2026-11-21 | Phase 4 |
@@ -23,6 +22,7 @@ Bugs and gaps, newest at the top of each list. Larger bugs can get their own not
 
 | ID | Issue | Sev. | Fixed in | How |
 | --- | --- | --- | --- | --- |
+| BUG-012 | Live site predated `.nojekyll`, so lessons couldn't load | 🔴 | v0.3.0 | Pushed 21 Nov 2026 |
 | BUG-011 | Ball-position diagram was mirrored (target shown on the left in a face-on view) | 🟠 | v0.3.0 | Redrawn with target on the right |
 | BUG-010 | *Bouncing Back* lesson linked but not written | 🟢 | v0.3.0 | Written |
 | BUG-009 | Driving › *Slices, Hooks & Pop-Ups* empty | 🟢 | v0.3.0 | Written and cross-linked |
